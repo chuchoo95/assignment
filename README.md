@@ -5,7 +5,7 @@
 #### 1.설정과 초기화
 * 전역 사용자명 구성하기 : git config - -global user.name “Your name”
 
-* 전역 사용자명구성하기 : git config - -global user.email “Your email address” 
+* 전역 사용자명 구성하기 : git config - -global user.email “Your email address” 
                             
 * 저장소별 사용자명 구성하기(해당 저장소 디렉터리로 이동 후) : git config user.name “Your name”
 
@@ -18,8 +18,8 @@
 * Git의 출력결과 색상 활성화하기 : git config - -global color.ui “auto”
 
 * 새로운 저장소 초기화하기 : 1. mkdir /path/newDir
-                            2.   cd /path/newDir
-                            3.    git init
+                           2. cd /path/newDir
+                           3.  git init
 * 저장소 복제하기 : git clone <저장소 url>
 
 * 새로운 원격 저장소 추가하기 : git remote add <원격 저장소> <저장소 url>
@@ -95,8 +95,8 @@
 * 이틀 전까지의 커밋 로그 보기 : git log - -before=”2 days”
 
 * HEAD보다 세 개 이전의 커밋 로그 보기 : 1.  git log -1 HEAD-3
-                                     2.  git log -1 HEAD^^^
-                                     3. git log -1 HEAD~1^^         
+                                       2.  git log -1 HEAD^^^
+                                       3. git log -1 HEAD~1^^         
                           
 * 두 지점 사이의 커밋 로그 보기 : git log <시작 지점>…<끝 지점>
 
@@ -127,6 +127,7 @@
 * 로그에서 복사와 붙여 넣은 정보 보기 : git log -C -C -p -1 <특정 지점>
 
 #### 5. 원격 저장소
+
 * 저장소 복제하기 : git clone <저장소>
 
 * 마지막 200개의 커밋만 포함하여 저장소 복제하기 : git clone - -depth 200 <저장소>
@@ -158,6 +159,7 @@
 * 원격 저장소를 제거하고 관련된 브랜치도 제거하기 : git remote rm <원격 저장소>
 
 ## MARKDOWN 문법
+
  ### 제목(Heading)
 > 문서를 작성할 때 가장 기본이 되는 제목은 #의 개수에 따라 글자의 크기가 달라집니다.
 <pre>
